@@ -1,0 +1,15 @@
+.bubbleicon{
+    bottom: 20px;
+    display: block;
+    height: 60px;
+    margin: 0px 12px;
+    overflow: visible;
+    position: fixed;
+    right: 12px;
+    top: auto;
+    width: 60px;
+    z-index: 2147483644;
+}
+.btn-icon{
+    background-color: blue;
+}

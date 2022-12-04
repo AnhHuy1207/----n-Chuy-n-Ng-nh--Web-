@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Figure World</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style_about.css" />
+    <link rel="stylesheet" href="css/icon.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/3fd576ae50.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/js/home.js"></script>
+</head>
+
+<body>
+    <a href="#" data-toggle="modal" data-target="#serviceModal">
+        <img src="images/icon/vip.png" class="bubbleicon" alt="vip">
+    </a>
+    <!--Nav bar-->
+    <div style="overflow: hidden;">
+        <div style="position: fixed; z-index: 1000; width: 100vw; top: 0; background-color: black;">
+            <nav class="navbar navbar-expand-md  navbar-dark">
+                <a href="index.html" style="width:40%;">
+                    <img src="images/icon/logo.png" style="width: 50px;"/>
+                </a>
+                
+                <div class="collapse navbar-collapse" id="collapsibleNavbar" style="justify-content: center;">
+                    <ul class="navbar-nav" style="justify-content: space-between; width: 100%;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a class="nav-link" href="product.html">Sản phẩm</a>
+                                <div class="dropdown-content">
+                                  <a href="product.html" class="item-sp">Figure</a>
+                                  <a href="product.html" class="item-sp">Nendoroid</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" >Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" >Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--carousel-->
+        <div id="demo" class="carousel slide banner-carousel" data-ride="carousel" style="margin-top: 98px;">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/fig_1.webp" alt="Kurumi (Date A Live)" width="1100" height="500" style="margin: 0px 200px;">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/fig_2.webp" alt="Misa (Death Note)" width="1100" height="500" style="margin: 0px 200px;">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next" >
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+
+        <!--About-->
+        <div id="navAbout">
+            <div class="row" style="height: 50px; margin-right: 0;"></div>
+                <h2 class="text-center font-weight-bold" style="color: #587330;">GIỚI THIỆU VỀ FIGURE</h2>
+                <p style="font-size: .8em; text-justify: auto;font-size:larger ;">
+                    Hiện nay, có rất nhiều người đặc biệt là với giới trẻ rất yêu thích các nhân vật hoạt hình, game…. 
+                    Nhờ đó, các mô hình đồ chơi figure được tạo ra nhằm tăng sự thích thú đối với những người thích sưu tầm hay có ý định trang trí cho căn phòng thêm bắt mắt.
+                    "Figure" có nghĩa là “tượng trưng”, hay “nhân vật”. Thế nhưng, chỉ với những định nghĩa khô khan ấy thì chưa thật sự lột tả được hết nét đặc sắc của "figure". 
+                    Đây là một loại hình giải trí phổ biến của những người mê truyện tranh và phim hoạt hình. 
+                    Figure được xem là một nền văn hóa, một thú sưu tầm thú vị của mọi người dân trên thế giới, nhất là ở Mĩ và Nhật. 
+                    Đối với các fan anime,manga hoặc nhân vật của một tựa game nổi, figure không chỉ đơn thuần là đồ chơi hay búp bê, mà còn là “người bạn từ thế giới ảo”.
+                </p>            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
